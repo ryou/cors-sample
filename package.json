@@ -1,0 +1,17 @@
+{
+  "name": "cors-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start:no-headers-added": "node server-no-headers-added.js & node front.js",
+    "start:allow-origin-no-option-header": "node server-allow-origin-no-option-header.js & node front.js",
+    "start:with-cookie": "node server-with-cookie.js & node front.js",
+    "start:with-option-header": "node server-with-option-header.js & node front.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
